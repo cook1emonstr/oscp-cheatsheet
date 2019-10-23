@@ -9,7 +9,7 @@
 - Read zip file info
   - `7z l -slt File.zip`
 - Crack a password protected zip file
-   - fcrack -D -p <password List> <zipfile>
+   - fcrack -D -p password_List File.zip
 - Useful tools
   - xclip
 
