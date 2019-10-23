@@ -8,6 +8,8 @@
   - `wget -m --no-passive ftp://anonymous:anonymous@ipaddress`
 - Read zip file info
   - `7z l -slt File.zip`
+- Crack a password protected zip file
+   - 'fcrack -D -p <password List> <zipfile>'
 - Useful tools
   - xclip
 
