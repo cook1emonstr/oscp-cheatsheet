@@ -8,8 +8,6 @@
   - `wget -m --no-passive ftp://anonymous:anonymous@ipaddress`
 - Read zip file info
   - `7z l -slt File.zip`
-- Crack a password protected zip file
-  - fcrack -D -p password_List File.zip
 - Useful tools
   - xclip
 
@@ -93,3 +91,4 @@
   - If you used msfvenom try pivoting options
 - Is your file transfer failing
   - do you have write access to the CWD?
+  
