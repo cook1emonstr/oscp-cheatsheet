@@ -1,3 +1,9 @@
+## Kali General
+
+- Faster NMAP full port scan. Finds all open ports than loops through service and version detection for those discovered
+  - `ports=$(nmap -p- --min-rate=1000 -sT  -T4 10.10.10.116 | grep ^[0-9] | cut-d '/' -f 1 | tr '\n' ',' | sed s/,$//)nmap -sC -sV -p$ports -sT 10.10.10.116`
+
+
 ## Buffer Overflow
   
 - Spike
