@@ -79,6 +79,17 @@
 - Resources
   - [Path Traversal](https://www.gracefulsecurity.com/path-traversal-cheat-sheet-linux/)
 
+### Priv Esc troubleshooting
+
+- Did you check all cronjobs?
+- Did you check all processes running as root or another user?
+- Did you see if mountable file systems are available?
+- Did you check for config files?
+- Did you check /var/www/?
+- Did you check all home dirs?
+  - .ssh?
+  - .bash_history?~~
+
 ## Troubleshooting
 
 - Did an RCE test work but your payload fail?
