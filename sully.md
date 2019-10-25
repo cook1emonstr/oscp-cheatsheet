@@ -1,4 +1,5 @@
 look at https://ippsec.rocks/ to search his vids
+
 nmap -sC -sV -oA outputFile IP
 
 -Pass the hash attack to login as a user
