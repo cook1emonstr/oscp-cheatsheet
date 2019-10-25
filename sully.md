@@ -30,5 +30,8 @@ Hashes.org and hashkiller best website hash cracking
   
 -oracle odat tool
 
+-dbeaver for database connection
+   default username: sa default pass:password
+
 Good website for basic enumeration for ports/services found: http://0daysecurity.com/penetration-testing/enumeration.html
 
